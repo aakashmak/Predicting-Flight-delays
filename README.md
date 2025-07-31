@@ -10,41 +10,55 @@ Through this analysis, we aim to provide stakeholders with valuable insights tha
 
 #  EXPLORATORYDATAANALYSIS
 1. Data Loading and Initial Exploration
+ 
  ● The initial step in our analysis involved loading the flight dataset to examine the structure
  and types of data available.
+ 
  ● This provided an overview of the various fields, helping identify which columns contain
  categorical data, numerical data, and potential identifiers for airlines and time metrics.
  
 2. Data Filtering
+ 
  ● Our analysis focused specifically on flight data from December, a significant month due
  to holiday travel, which may influence patterns in delays and flight cancellations.
+ 
  ● Thissubset helps us concentrate on seasonal effects on flight performance.
  
 3. Data Cleaning
+ 
  ● Tostreamline our analysis, we removed several columns that were not necessary for our
  primary objective, which focuses on flight delays.
+ 
  ● This step simplified the dataset, reducing the dimensionality and focusing on the most
  impactful variables such as departure delays and airline identifiers.
  
 4. Handling Missing Values
+ 
  ● We assessed and quantified missing values across the dataset to ensure the integrity of
  our analysis.
+ 
  ● By calculating the percentage of completeness per column, we identified fields with
  significant missing data, which were then excluded from further analysis to maintain the
  robustness of our findings.
+ 
  ● This process involved removing any records that still contained missing values after our
  initial column filtering.
 
 5. Linking Airlines with Names
+ 
  ● For clarity and ease of interpretation, we integrated an external dataset that provided
  mappings from airline IATA codes to full airline names.
+ 
  ● This enhancement was crucial for presenting our findings in a more understandable
  format, replacing obscure codes with recognizable airline names.
 
 6. Statistical Analysis
+ 
  ● The core of our exploratory analysis involved calculating basic statistical measures for
  departure delays across different airlines.
+ 
  ● We computed the count, mean, minimum, and maximum delays to identify trends and
  outliers in airline performance.
+ 
  ● This analysis helped in understanding which airlines had the most significant issues with
  delays and which performed well, even during the busy travel season

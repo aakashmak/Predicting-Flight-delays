@@ -8,7 +8,7 @@ This exploration seeks to answer pivotal questions: How do different airlines ma
 
 Through this analysis, we aim to provide stakeholders with valuable insights that not only reflect operational challenges but also spotlight opportunities for enhancing passenger satisfaction and optimizing overall airline performance. By comparing data from December and April, we anticipate uncovering significant operational insights that could lead to more robust and responsive airline services
 
-#  EXPLORATORYDATAANALYSIS
+#  EXPLORATORY DATA ANALYSIS
 1. Data Loading and Initial Exploration
  
  The initial step in our analysis involved loading the flight dataset to examine the structure
